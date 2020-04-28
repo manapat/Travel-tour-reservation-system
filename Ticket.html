@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>จองโปรแกรมทัวร์</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        form {
+            background-color: rgb(255, 255, 255);
+            width: 400px;
+            border: 5px solid rgb(0, 0, 0);
+            padding: 25px;
+            margin: 100px;
+        }
+
+        body {
+            background-color: dimgrey;
+        }
+
+        #roundCorners {
+            border-radius: 25px;
+            padding: 100px;
+            width: 200px;
+            height: 200px;
+            background: whitesmoke;
+        }
+
+        #headline{
+            color: black;
+            font-size: 64px;
+    
+            border-radius: 50px;
+            padding: 5px;
+            width: 500px;
+            height: 100px;
+            background-color: rgb(230, 109, 29);
+        }
+    
+        #choose{
+            color: white;
+            font-size: 32px;
+        }
+
+        h1{
+            color: red; 
+        }
+            
+        #ticket{
+            width: 800px;
+            height: 400px ;
+            margin: 40px auto;
+        } 
+
+    </style>
+
+    
+
+</head>
+
+<body>
+
+    <center>
+        <img src="C:\Users\Blanks\web\headlogo.jpg">
+    </center>
+
+    <center>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <font style="color:peru;">
+
+                    <font style="vertical-align: inherit;">หน้าแรก</font>
+                </font>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="file:///C:/Users/Blanks/web/web/Program1.html">
+                <font style="color:peru;">
+                    <font style="vertical-align: inherit;">โปรแกรมทัวร์</font>
+                </font>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <font style="color:peru;">
+                    <font style="vertical-align: inherit;">โปรแกรมทัวร์ไฟไหม้</font>
+                </font>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <font style="color:peru;">
+                    <font style="vertical-align: inherit;">เกี่ยวกับเรา</font>
+                </font>
+            </a>
+
+        </div>
+    </center>
+
+        <form id = "ticket">
+            <div class="row">
+                <div class="col">
+                    <label for="exampleFormControlSelect1">ชื่อ</label>
+                        <input type="text" class="form-control" placeholder="">
+                </div>
+                <div class="col">
+                    <label for="exampleFormControlSelect1">นาสกุล</label>
+                        <input type="text" class="form-control" placeholder="">
+                </div>              
+            </div> <br>
+
+            <div class="row">
+                <div class="col">
+                    <label for="exampleFormControlSelect1">เบอร์โทรศัพท์</label>
+                        <input type="text" class="form-control" placeholder="">
+                </div>
+                <div class="col">
+                    <label for="exampleFormControlSelect1">Line id</label>
+                        <input type="text" class="form-control" placeholder=""> 
+                </div>  
+            </div> <br>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Choose Program Tour</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Choose Program Tour ...</option>                  
+                  <option>PRO WINTER FUKUOKA BEPPU FREEDAY 5D3N</option>                  
+                  <option>EASY SUNSHINE OKINAWA 4วัน 2คืน</option>
+                  <option>PRO TOKYO POPULAR "ชมซากุระ" FREE DAY 5วัน 3คืน</option>
+                  <option>ทัวร์เกาหลี ซัมเมอร์หรรษา อาสาพาไปเที่ยว 5วัน 3คืน</option>
+                  <option>ทัวร์เกาหลี HAPPY KOREA ติ่งเกาหลี AUTUMN</option>
+                  <option>เกาหลี ปูซาน แทกู [เลทส์โก ไฮไลท์ปูซาน]</option>
+                  <option>HH12-RJ Free days Hkg-Shopping 3 Days Apr-Sep</option>
+                  <option>HC6-RJ Finver ฮ่องกง-เซินเจิ้น-จูไห่-มาเก๊า 4 วัน (พักเซินเจิ้น 1 คืน+จูไห่ 2 คืน)</option>
+                  <option>HH1-CX Special Shop ฮ่องกง-ไหว้พระ-ช้อปปิ้ง 3 วัน (พักฮ่องกง 2 คืน)</option>
+                  <option>มหัศจรรย์...คุนหมิง ภูเขาหิมะเจียวจื่อ ตงชวน เล่นสกีหิมะ</option>
+                  <option>ทัวร์จีน หว่อจือเต้า!! ลี่เจียง</option>
+                  <option>ทัวร์จีน เหินห่าว!! ลี่เจียง จงเตี้ยน เต๋อชิง</option>                  
+                </select>
+            </div> <br>
+           
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    
+</body>
+
+</html>
